@@ -1,0 +1,106 @@
+:root {
+    --one-background-color: #f80000;
+    --two-background-color: #293133;
+    --three-background-color: #5f5f5f;
+    --four-background-color: #f8f8ff;
+    --five-background-color: #4169e;
+    --six-background-color: #800080;
+    --seven-background-color: #973e95;
+    --eight-background-color: #B6BBC4;
+    --nine-background-color: #31304D;
+}
+
+body {
+    background-image: url(/img/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr;  
+     height: 40vh; 
+    margin: auto; 
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+
+.listing {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    list-style-type: none;
+    gap: 10px;
+     /* display:flex;
+    flex-direction:row;
+    justify-content: center; */
+
+}
+
+
+.topic {
+    background-color: var(--nine-background-color);
+    border-width: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.listing li {
+    border: 2px solid red;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px red;
+    background-color: white;
+
+}
+
+.listing li h4 {
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.listing .cta {
+    margin-top: auto;
+    border-top: 2px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.listing .cta a {
+    text-decoration: none;
+    color: rgb(0, 26, 255);
+    font-size: 30px;
+}
+
+.listing .body {
+    padding: 10px;
+
+}
+
+.body img {
+    width: 250px;
+    object-fit: cover;
+}
+
+header{
+    color: var(--four-background-color);
+}
+
+a {
+    color: var(--four-background-color);
+    text-decoration: none;
+}
