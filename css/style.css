@@ -1,6 +1,9 @@
 :root {
     --background-img: url(/img/homepage.jpg);
     --background2-img: url(/img/project.jpg);
+    --background3-img: url(/img/hobby.jpg);
+    --background4-img: url(/img/aboutme.jpg);
+    --background5-img: url(/img/contact.jpg);
 }
 
 body {
@@ -14,6 +17,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.body3 {
+    background-image: var(--background3-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body4 {
+    background-image: var(--background4-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body5 {
+    background-image: var(--background5-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .row {
     display: flex;
